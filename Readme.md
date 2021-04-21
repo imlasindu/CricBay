@@ -8,7 +8,7 @@
 
 ![Normal](img/img1.png)
 
-💻 If one has an JSON Viewing extension:
+💻 If one has a JSON Viewing extension:
 
 ![With JSON Viewer](img/img2.png)
 
