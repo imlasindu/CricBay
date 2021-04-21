@@ -45,15 +45,6 @@ def cricbay():
     }
     return jsonify(result)
 
-# @app.route('/<int:n>')
-# def sum(n):
-#     b = 45
-#     sum = n + b
-#     result = {
-#         "Number" : n,
-#         "Sum" : sum
-#     }
-#     return jsonify(result)
 
 if __name__ == "__main__":
     app.run(debug=True)
