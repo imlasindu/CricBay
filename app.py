@@ -47,7 +47,10 @@ def cricbay():
             team_b = team_b[:-(len(team_b) - ind)]
     description = text_only[0].text
     location = text_only[-1].text
-    status = section.find('div', class_='scr-inf_lt').text
+    try:
+        status = section.find('div', class_='scr-inf_lt').text
+    except:
+        status = 'Not Available'
     result = {
         "Author" : "Prem",
         "Description" : description,
