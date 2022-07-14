@@ -57,11 +57,11 @@ def cricbay():
         "Location" : location,
         "Current" : current,
         "Status" : status,
-        "Team A" : team_a,
-        "Team A Score" : team_a_score,
-        "Team B" : team_b,
-        "Team B Score" : team_b_score,
-        "Full Scoreboard" : link,
+        "TeamA" : team_a,
+        "TeamAScore" : team_a_score,
+        "TeamB" : team_b,
+        "TeamBScore" : team_b_score,
+        "FullScoreboard" : link,
         "Thanks" : "NDTV Sports"
     }
     return jsonify(result)
